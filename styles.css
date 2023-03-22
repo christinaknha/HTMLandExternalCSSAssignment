@@ -1,0 +1,69 @@
+.navbar{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color:black;
+    color:white;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}   
+
+.company{
+    background-color: green;
+    color: white;
+    padding: 1em 1em;
+    float: inline-start;
+    border: green;
+}
+
+.cname{
+    margin:auto;
+    font-size:4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font: weight 700px;
+}
+
+.content{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+img{
+    height: 1em;
+}
+.menu{
+    display: inline-flex;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align: center;
+    flex: 30%;
+    margin: auto;
+    font-size:100%;
+    list-style: none;
+}
+.option{
+    padding-left: 50px;
+    /* padding-right:1.5em; */
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+.inline{
+    font-size: 1em;
+}
+
+.login{
+    text-align: left;
+    padding-right: 4em;
+}
+
